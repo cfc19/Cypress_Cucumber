@@ -6,7 +6,7 @@ module.exports = {
     }, 
 
     dropdownOptions: {
-        lowToHigh: 'lohi'
+        highToLow: 'hilo'
     },
 
     sortInventoryBy: function (dropdownOption) {

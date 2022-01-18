@@ -14,7 +14,7 @@ Given("I login as a standard user", () => {
 })
 
 When("I add the most expensive item and cheapest item", () => {
-    inventory.sortInventoryBy(inventory.dropdownOptions.lowToHigh)
+    inventory.sortInventoryBy(inventory.dropdownOptions.highToLow)
     inventory.addFirstAndLastItemToCart()
 })
 
