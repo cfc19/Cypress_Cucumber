@@ -1,0 +1,7 @@
+{
+    "testFiles": "**/*.feature",
+    "baseUrl": "https://www.saucedemo.com",
+    "defaultCommandTimeout": 10000,
+    "chromeWebSecurity": false
+}
+
