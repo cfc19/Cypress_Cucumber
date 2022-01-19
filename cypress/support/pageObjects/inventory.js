@@ -1,9 +1,9 @@
-module.exports = { 
+module.exports = {
     elements: {
         sortByDropdown: '[data-test="product_sort_container"]',
         allAddToCartBtns: '[data-test*="add-to-cart"]',
         basketBadge: '.shopping_cart_link'
-    }, 
+    },
 
     dropdownOptions: {
         highToLow: 'hilo'

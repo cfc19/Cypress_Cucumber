@@ -25,6 +25,7 @@
     "nonGlobalStepDefinitions": true
   },
   "devDependencies": {
-    "@faker-js/faker": "^6.0.0-alpha.3"
+    "@faker-js/faker": "^6.0.0-alpha.3",
+    "eslint-plugin-cypress": "^2.12.1"
   }
 }

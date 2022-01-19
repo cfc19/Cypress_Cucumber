@@ -5,7 +5,7 @@ module.exports = {
         postcodeField: '[data-test="postalCode"]',
         continueBtn: '[data-test="continue"]',
         finishBtn: '[data-test="finish"]',
-    }, 
+    },
 
     expectedText: {
         orderConfirmationText: 'THANK YOU FOR YOUR ORDER'

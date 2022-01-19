@@ -12,7 +12,6 @@ module.exports = {
         cy.contains(this.expectedText.lowestItemAmount)
         cy.contains(this.expectedText.mostExpensiveItemAmount)
         cy.get(this.elements.checkoutBtn).click();
-
     },
 
     clickShoppingCartBtn: function () {

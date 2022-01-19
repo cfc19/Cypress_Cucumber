@@ -6,11 +6,11 @@ import shoppingCart from "../../support/pageObjects/shoppingCart"
 import checkout from "../../support/pageObjects/checkout"
 
 Given('I am on the Swag login page', () => {
-  cy.visit('/')
+    cy.visit('/')
 })
 
 Given("I login as a standard user", () => {
-  login.attemptLogin('standard_user', 'secret_sauce')
+    login.attemptLogin('standard_user', 'secret_sauce')
 })
 
 When("I add the most expensive item and cheapest item", () => {
