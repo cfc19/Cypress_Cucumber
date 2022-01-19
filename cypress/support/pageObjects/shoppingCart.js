@@ -8,9 +8,12 @@ module.exports = {
         mostExpensiveItemAmount: '$49.99'
     },
 
-    ensureCheckoutContainsItemsAndClickCheckout: function () {
+    ensureCheckoutContainsMostExpensiveItemAndCheapest: function () {
         cy.contains(this.expectedText.lowestItemAmount)
         cy.contains(this.expectedText.mostExpensiveItemAmount)
+    },
+
+    clickCheckoutBtn: function () {
         cy.get(this.elements.checkoutBtn).click();
     },
 

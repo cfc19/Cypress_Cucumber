@@ -9,5 +9,5 @@ module.exports = {
         cy.get(this.elements.usernameField).type(username)
         cy.get(this.elements.passwordField).type(password)
         cy.get(this.elements.loginBtn).click()
-    }
+    },
 }
