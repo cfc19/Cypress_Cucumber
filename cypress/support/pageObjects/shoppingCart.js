@@ -1,11 +1,11 @@
 module.exports = {
     elements: {
         shoppingCart: '.shopping_cart_link',
-        checkoutBtn: '[data-test="checkout"]'
+        checkoutBtn: '[data-test="checkout"]',
     },
     expectedText: {
         lowestItemAmount: '$7.99',
-        mostExpensiveItemAmount: '$49.99'
+        mostExpensiveItemAmount: '$49.99',
     },
 
     ensureCheckoutContainsMostExpensiveItemAndCheapest: function () {
@@ -14,11 +14,10 @@ module.exports = {
     },
 
     clickCheckoutBtn: function () {
-        cy.get(this.elements.checkoutBtn).click();
+        cy.get(this.elements.checkoutBtn).click()
     },
 
     clickShoppingCartBtn: function () {
         cy.get(this.elements.shoppingCart).click()
-    }
-
+    },
 }

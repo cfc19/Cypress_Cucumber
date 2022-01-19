@@ -8,3 +8,4 @@ Feature: Login and make a purchase on Swag Labs
     When I add the most expensive item and cheapest item
     Then the basket should contain the items
     And I can complete the purchase
+    
